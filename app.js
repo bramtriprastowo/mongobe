@@ -8,7 +8,7 @@ const productRouterv2 = require("./app/product_v2/routes");
 const path = require("path");
 
 const corsOption = {
-    origin: ['http://google.com'],
+    origin: ['https://www.google.com'],
 };
 app.use(cors(corsOption));
 // app.use(cors());
