@@ -23,5 +23,8 @@ app.use((req, res, next) => {
     })
 })
 
-const {PORT} = process.env;
-app.listen(PORT, () => console.log(`Server: http://localhost:${PORT}`));
+const {HOST, PORT} = process.env;
+
+app.listen(PORT, () => {
+  console.log(`${HOST}${PORT}`);
+});
