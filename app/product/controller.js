@@ -1,4 +1,4 @@
-const { ObjectId, Int32 } = require("mongodb");
+const { ObjectId } = require("mongodb");
 const db = require("../../config/mongodb");
 
 const productController = {

@@ -7,11 +7,11 @@ const productRouter = require("./app/product/routes");
 const productRouterv2 = require("./app/product_v2/routes");
 const path = require("path");
 
-const corsOption = {
-    origin: ['https://www.google.com'],
-};
-app.use(cors(corsOption));
-// app.use(cors());
+// const corsOption = {
+//     origin: ['https://www.google.com'],
+// };
+// app.use(cors(corsOption));
+app.use(cors());
 // const logger = require("morgan");
 // app.use(logger('dev'));
 
